@@ -10,7 +10,7 @@
     <script src="assets/vue.global.js"></script>
 </head>
 <body>
-<div id="app" class="container">
+<div id="app" class="container mt-3">
     <div class="images">
         <img
                 v-if="bulbOn"
@@ -29,7 +29,8 @@
     </div>
     <div class="mx-auto mt-5">
         <div class="text-center">
-            <button  @click="toggleBulbState" class="btn btn-primary px-3">  {{ bulbOn ? "TURN OFF" : "TURN ON" }}</button>
+            <button @click="toggleBulbState" class="btn btn-primary px-3"> {{ bulbOn ? "TURN OFF" : "TURN ON" }}
+            </button>
         </div>
     </div>
 </div>
