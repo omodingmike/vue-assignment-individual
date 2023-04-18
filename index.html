@@ -13,17 +13,9 @@
 <div id="app" class="container mt-3">
     <div class="images">
         <img
-                v-if="bulbOn"
-                alt="bulb off"
+                alt="bulb on"
                 class="d-block mx-auto"
-                src="assets/images/on.png"
-                srcset=""
-        />
-        <img
-                v-else
-                alt="bulb off"
-                class="d-block mx-auto"
-                src="assets/images/off.png"
+                :src="imageSource"
                 srcset=""
         />
     </div>
