@@ -1,0 +1,58 @@
+body {
+    background-color: #222;
+}
+#frame {
+    background: #000;
+    display: block;
+    /*display: inline-block;*/
+    position: relative;
+    margin: auto;
+    width: 500px;
+    padding: 2% 2% 4% 2%;
+    border-radius: 10px;
+}
+#screen {
+    position: relative;
+    /*background-color: #1D83C5;*/
+    height: 300px;
+    text-align: center;
+    padding-bottom: 56.25%;
+
+}
+.tv-off{
+    position: relative;
+    background-color: #070707;
+    height: 300px;
+    text-align: center;
+    padding-bottom: 56.25%;
+}
+.tv-on{
+    position: relative;
+    background-color: #1D83C5;
+    height: 300px;
+    text-align: center;
+    padding-bottom: 56.25%;
+}
+#screen img{
+    width: 150px;
+}
+.tv-content{
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.fa-power-off{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+
+}
+.tv-on-color{
+    color: green;
+}
+.tv-off-color{
+    color: grey;
+}
